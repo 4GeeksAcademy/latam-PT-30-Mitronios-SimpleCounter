@@ -1,5 +1,4 @@
 import React from "react";
-import PropType from "prop-types"
 
 export const SimpleCounter = (props) => {
     return (
@@ -16,12 +15,3 @@ export const SimpleCounter = (props) => {
         </div>
     )
 };
-
-SimpleCounter.propTypes = {
-    digit6: PropType.string,
-    digit5: PropType.string,
-    digit4: PropType.string,
-    digit3: PropType.string,
-    digit2: PropType.string,
-    digit1: PropType.string,
-}
